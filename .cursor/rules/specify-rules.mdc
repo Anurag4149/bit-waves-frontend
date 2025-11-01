@@ -1,0 +1,24 @@
+# bit-waves-frontend Development Guidelines
+
+Auto-generated from all feature plans. Last updated: 2025-10-19
+
+## Active Technologies
+- JavaScript/TypeScript with React 18+ (Node.js 18+ LTS for build tooling) + React, React Router, Tailwind CSS or Material UI, Framer Motion (animations), React Hook Form (forms), EmailJS or similar (email service) (001-it-services-website)
+
+## Project Structure
+```
+src/
+tests/
+```
+
+## Commands
+npm test && npm run lint
+
+## Code Style
+JavaScript/TypeScript with React 18+ (Node.js 18+ LTS for build tooling): Follow standard conventions
+
+## Recent Changes
+- 001-it-services-website: Added JavaScript/TypeScript with React 18+ (Node.js 18+ LTS for build tooling) + React, React Router, Tailwind CSS or Material UI, Framer Motion (animations), React Hook Form (forms), EmailJS or similar (email service)
+
+<!-- MANUAL ADDITIONS START -->
+<!-- MANUAL ADDITIONS END -->

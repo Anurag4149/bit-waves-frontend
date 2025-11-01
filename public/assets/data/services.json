@@ -1,0 +1,78 @@
+[
+  {
+    "id": "it-solutioning",
+    "name": "IT Solutioning",
+    "shortDescription": "Transform your infrastructure with cloud integration, API design, and enterprise architecture.",
+    "fullDescription": "Our IT Solutioning services help businesses modernize their technology stack and streamline operations. We specialize in designing scalable, secure, and efficient solutions that drive digital transformation.",
+    "icon": "/assets/images/icons/server.svg",
+    "capabilities": [
+      "Cloud Integration & Migration",
+      "API Design & Development",
+      "Enterprise Architecture",
+      "System Automation",
+      "DevOps & CI/CD Pipeline Setup",
+      "Microservices Architecture"
+    ],
+    "useCases": [
+      "Migrate legacy systems to cloud infrastructure",
+      "Design RESTful and GraphQL APIs for modern applications",
+      "Automate repetitive tasks and workflows",
+      "Build scalable microservices architecture",
+      "Implement continuous integration and deployment pipelines"
+    ],
+    "ctaText": "Discuss Your IT Needs",
+    "ctaLink": "/contact",
+    "order": 1
+  },
+  {
+    "id": "ai-agents",
+    "name": "AI Agent Development",
+    "shortDescription": "Build intelligent automation with custom AI agents, chatbots, and prompt engineering.",
+    "fullDescription": "Harness the power of AI to automate complex tasks and enhance decision-making. Our AI Agent Development services create intelligent systems that understand, learn, and act autonomously.",
+    "icon": "/assets/images/icons/brain.svg",
+    "capabilities": [
+      "Custom AI Agent Design",
+      "Conversational AI & Chatbots",
+      "Prompt Engineering & LLM Integration",
+      "Intelligent Automation Tools",
+      "Natural Language Processing",
+      "AI Model Fine-Tuning"
+    ],
+    "useCases": [
+      "Deploy customer support chatbots with natural language understanding",
+      "Automate data extraction and analysis tasks",
+      "Create AI-powered recommendation engines",
+      "Build intelligent virtual assistants",
+      "Integrate GPT-4, Claude, or custom LLMs into your workflow"
+    ],
+    "ctaText": "Explore AI Solutions",
+    "ctaLink": "/contact",
+    "order": 2
+  },
+  {
+    "id": "data-visualization",
+    "name": "Data Research & Visualization",
+    "shortDescription": "Unlock insights with advanced analytics, interactive dashboards, and compelling visualizations.",
+    "fullDescription": "Turn raw data into actionable insights with our Data Research & Visualization services. We create intuitive, interactive dashboards that empower data-driven decision-making.",
+    "icon": "/assets/images/icons/chart.svg",
+    "capabilities": [
+      "Data Analytics & Research",
+      "Interactive Dashboards",
+      "Business Intelligence Integration",
+      "Data Visualization Design",
+      "Real-Time Reporting",
+      "Predictive Analytics"
+    ],
+    "useCases": [
+      "Build executive dashboards with real-time KPI tracking",
+      "Visualize complex datasets with D3.js, Tableau, or Power BI",
+      "Integrate BI tools with existing data warehouses",
+      "Create custom reporting solutions",
+      "Analyze trends and patterns for strategic planning"
+    ],
+    "ctaText": "Visualize Your Data",
+    "ctaLink": "/contact",
+    "order": 3
+  }
+]
+
