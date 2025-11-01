@@ -127,9 +127,10 @@ export function validateData<T>(
     return { success: true, data: validatedData };
   } catch (error) {
     if (error instanceof z.ZodError) {
+      const zodError = error as z.ZodError;
       return {
         success: false,
-        error: error.errors.map(e => `${e.path.join('.')}: ${e.message}`).join(', '),
+        error: zodError.issues.map((e: z.ZodIssue) => `${e.path.join('.')}: ${e.message}`).join(', '),
       };
     }
     return { success: false, error: 'Unknown validation error' };

@@ -85,8 +85,8 @@ export default function Services() {
       <section className="bg-primary-600 text-white py-16 md:py-24">
         <div className="container mx-auto px-4 text-center">
           <motion.div
-            initial={shouldReduceMotion ? false : "hidden"}
-            whileInView={shouldReduceMotion ? false : "visible"}
+            initial={shouldReduceMotion ? undefined : "hidden"}
+            whileInView={shouldReduceMotion ? undefined : "visible"}
             viewport={{ once: true, amount: 0.3 }}
             variants={scrollAnimationVariants.fadeInUp}
           >

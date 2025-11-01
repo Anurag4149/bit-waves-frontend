@@ -145,7 +145,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800 text-sm text-center md:text-left">
           <p>
-            &copy; 2025 Bitwaves Systems & Solutions. All Rights Reserved.
+            &copy; {currentYear} Bitwaves Systems & Solutions. All Rights Reserved.
           </p>
         </div>
       </div>
