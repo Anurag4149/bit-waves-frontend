@@ -5,13 +5,13 @@ This document describes how to deploy the bit-waves-frontend application to GitH
 ## Repository Information
 
 - **Username**: `Anurag4149`
-- **Repository Name**: `bit`
-- **Deployment URL**: `https://Anurag4149.github.io/bit/`
-- **Base Path**: `/bit/`
+- **Repository Name**: `bit-waves-frontend`
+- **Deployment URL**: `https://Anurag4149.github.io/bit-waves-frontend/`
+- **Base Path**: `/bit-waves-frontend/`
 
 ## Prerequisites
 
-1. GitHub repository: `Anurag4149/bit`
+1. GitHub repository: `Anurag4149/bit-waves-frontend`
 2. GitHub Pages enabled in repository settings
 3. GitHub Actions enabled in repository settings
 
@@ -19,7 +19,7 @@ This document describes how to deploy the bit-waves-frontend application to GitH
 
 ### 1. Enable GitHub Pages
 
-1. Go to your repository on GitHub: `https://github.com/Anurag4149/bit`
+1. Go to your repository on GitHub: `https://github.com/Anurag4149/bit-waves-frontend`
 2. Navigate to **Settings** → **Pages**
 3. Under **Source**, select:
    - **Source**: `GitHub Actions`
@@ -36,14 +36,14 @@ Ensure the following are enabled:
 
 1. Push the code to the `main` branch
 2. The GitHub Actions workflow will automatically:
-   - Build the project with the correct base path (`/bit/`)
+   - Build the project with the correct base path (`/bit-waves-frontend/`)
    - Deploy to GitHub Pages
 3. Monitor the deployment in **Actions** tab
 
 ### 4. Verify Deployment
 
 After the workflow completes successfully:
-1. Visit `https://Anurag4149.github.io/bit/`
+1. Visit `https://Anurag4149.github.io/bit-waves-frontend/`
 2. Test navigation to all routes (e.g., `/about`, `/services`, `/contact`)
 3. Verify assets load correctly (images, CSS, JavaScript)
 
@@ -51,8 +51,8 @@ After the workflow completes successfully:
 
 ### Base Path Configuration
 
-The application is configured with base path `/bit/` in:
-- `vite.config.ts`: Sets `base: '/bit/'` for production builds
+The application is configured with base path `/bit-waves-frontend/` in:
+- `vite.config.ts`: Sets `base: '/bit-waves-frontend/'` for production builds
 - `src/App.tsx`: Uses `basename={basename}` in BrowserRouter
 
 ### Client-Side Routing
@@ -65,7 +65,7 @@ GitHub Pages doesn't support server-side routing. To handle React Router routes:
 ### Build Process
 
 1. **Local Development**: Base path is `/` (root)
-2. **Production Build**: Base path is `/bit/`
+2. **Production Build**: Base path is `/bit-waves-frontend/`
 3. The `build:gh-pages` script sets `NODE_ENV=production` to use the correct base path
 
 ## Manual Deployment (Alternative)
@@ -121,7 +121,7 @@ npm run deploy
 
 **Solution**:
 If you change the repository name, update:
-1. `vite.config.ts`: Change `base: '/bit/'` to match new repo name
+1. `vite.config.ts`: Change `base: '/bit-waves-frontend/'` to match new repo name
 2. `public/404.html`: Update `pathSegmentsToKeep` if needed
 3. This documentation
 
