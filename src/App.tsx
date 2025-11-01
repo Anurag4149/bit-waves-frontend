@@ -15,8 +15,10 @@ function AppRoutes() {
 }
 
 function App() {
+  const basename = import.meta.env.BASE_URL || '/';
+  
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <div className="flex flex-col min-h-screen">
         {/* Header */}
         <Header />
